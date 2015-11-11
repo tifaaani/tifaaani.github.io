@@ -1,0 +1,35 @@
+body {
+    background-color: #72a6ff;
+    text-align: center;
+}
+
+
+@font-face {
+  font-family: 'Adamas-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Adamas-Regular'), url('www/fonts/Adamas-Regular.otf') format('opentype');
+} 
+
+
+
+h1 {
+    color: #fbff89;
+    font-family: 'Adamas-Regular';
+    font-size: 30pt;
+    text-align: center;
+} 
+
+a {
+  font-family: Chunkfive;
+  font-size: 30pt;
+}
+
+h2{
+    font-family: 'Adamas-Regular';
+    text-align: center;
+    font-size: 30pt;
+    text-align: center;
+    color: white;  
+}
+
