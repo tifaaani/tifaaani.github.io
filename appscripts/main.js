@@ -131,17 +131,17 @@ require(
 
         //Create vars to hold the different images so they will be displayed when called 
         var ariesImage = "url('resources/aries.jpg')";
-        var taurusImage = "url('../tifaaani.github.io/resources/taurus.jpg')";
-        var geminiImage = "url('../tifaaani.github.io/resources/gemini.jpg')";
-        var cancerImage = "url('../tifaaani.github.io/resources/cancer.jpg')";
-        var leoImage = "url('../tifaaani.github.io/resources/leo.jpg')";
-        var virgoImage = "url('../tifaaani.github.io/resources/virgo.jpg')";
-        var libraImage = "url('../tifaaani.github.io/resources/libra.jpg')";
-        var scorpioImage = "url('../tifaaani.github.io/resources/scorpio.jpg')";
-        var sagittariusImage = "url('../tifaaani.github.io/resources/sagittarius.jpg')";
-        var capricornImage = "url('../tifaaani.github.io/resources/capricorn.jpg')";
-        var aquariusImage = "url('../tifaaani.github.io/resources/aquarius.jpg')";
-        var piecesImage = "url('../tifaaani.github.io/resources/pieces.jpg')";
+        var taurusImage = "url('resources/taurus.jpg')";
+        var geminiImage = "url('resources/gemini.jpg')";
+        var cancerImage = "url('resources/cancer.jpg')";
+        var leoImage = "url('resources/leo.jpg')";
+        var virgoImage = "url('resources/virgo.jpg')";
+        var libraImage = "url('resources/libra.jpg')";
+        var scorpioImage = "url('resources/scorpio.jpg')";
+        var sagittariusImage = "url('resources/sagittarius.jpg')";
+        var capricornImage = "url('resources/capricorn.jpg')";
+        var aquariusImage = "url('resources/aquarius.jpg')";
+        var piecesImage = "url('resources/pieces.jpg')";
 
 
         //Add event listeners for the different buttons 
