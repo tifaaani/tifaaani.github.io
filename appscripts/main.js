@@ -5,7 +5,7 @@ require(
     function () {
             
         console.log("yo, I'm alive!");
-        var sound = new Audio('../tifaaani.github.io/resources/Beach.mp3');
+        var sound = new Audio('resources/Beach.mp3');
             sound.loop= true;
             sound.play();
 
