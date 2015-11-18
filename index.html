@@ -8,25 +8,87 @@
 
 	        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js">
 	        </script>
-
-	        <!--Google Analytics Tracking Code--> 
-	        <script>
-	          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	          ga('create', 'UA-69912955-1', 'auto');
-	          ga('send', 'pageview');
-	        </script>	
+	        
 		</head>
 
 		<body>
-			<h1>WELCOME</h1>
+			<h1>STAR STUFF</h1>
+			<p>
+			<q>Exploration is in our nature. We began as wanderers, and we are wanderers still. <br>We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.</q> -Carl Sagan<br>
+			<br>Explore each of the twelve zodiac constellations. Click and drag your mouse to connect the dots and draw the constellations out! <br>
 
-			<h2>CATCH STEVE:</h2>
+			</p>
+
+
 			
-			<a href="http://tifaaani.github.io/myGame/">CLICK ME</a>
 			
+		<div id='main'>
+			<div id="svgcanvasDiv"> 
+            	<div id="svgcanvas"> 
+            		<img src="../tifaaani.github.io/resources/capricorn.jpg" id="capricornImage"/>
+
+            	</div>  
+       		</div>
+
+       	<aside><h2>CONTROLS:</h2>
+               
+
+                <p>Choose a constellation to draw:</p>
+                <input type="button" id="Aries" value="Aries"><br>
+                <input type="button" id="Taurus" value="Taurus"><br>
+                <input type="button" id="Gemini" value="Gemini"><br>
+                <input type="button" id="Cancer" value="Cancer"><br>
+                <input type="button" id="Leo" value="Leo"><br>
+                <input type="button" id="Virgo" value="Virgo"><br>
+                <input type="button" id="Libra" value="Libra"><br>
+                <input type="button" id="Scorpio" value="Scorpio"><br>
+                <input type="button" id="Sagittarius" value="Sagittarius"><br>
+                <input type="button" id="Capricorn" value="Capricorn"><br>
+				<input type="button" id="Aquarius" value="Aquarius"><br>
+				<input type="button" id="Pieces" value="Pieces"><br><br>
+
+                 <p>Change the colors of your constellation artwork! <br><br>
+	                
+	                <label for="sliderH">Hue</label>
+	                <input id="sliderH" type="range" step=".05" min="0" max="1" value=".5"><br><br>
+	                <label for="sliderS">Saturation</label>
+	                <input id="sliderS" type="range" step=".05" min="0" max="1" value=".5"><br><br>
+	                <label for="sliderL">Lightness</label>
+	                <input id="sliderL" type="range" step=".05" min="0" max="1" value=".5"><br><br>
+
+
+	                Clear your drawing: <br><br>
+	                <input type="button" id="clearButton" value="Clear All"><br><br><br>
+	            </p>
+        </aside>
+
+        </div>
+
+
+        	<h2>CREDITS</h2>
+        	<p>Designed by Ong Shumin (A0101374U) for NM2207<br>
+			<a href="http://tifaaani.github.io/myGame/">Check out a JavaScript game I created</a><br><br>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		</body>
 	</html>

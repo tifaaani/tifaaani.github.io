@@ -1,6 +1,20 @@
+html { 
+  height:100%;
+  width:99%;
+  top: 0;
+  bottom:0;
+    
+  overflow-y:scroll;
+  overflow-x:hidden;
+
+}
+
 body {
-    background-color: #72a6ff;
+    background-image: url("../resources/universe.jpg");
     text-align: center;
+    font-family: 'NexaLight';
+    font-size: 9pt;
+
 }
 
 
@@ -12,24 +26,148 @@ body {
 } 
 
 
-
 h1 {
-    color: #fbff89;
-    font-family: 'Adamas-Regular';
-    font-size: 30pt;
+    color: white;
+    font-family: 'PressStart2P';
+    font-size: 70pt;
     text-align: center;
-} 
+    /*animation: blinker 15s ease infinite;*/
+}  
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
 
 a {
-  font-family: Chunkfive;
-  font-size: 30pt;
+  font-family: 'Chunkfive';
+  font-size: 12pt;
+  color: white;
 }
 
 h2{
-    font-family: 'Adamas-Regular';
+    font-family: 'PressStart2P';
     text-align: center;
-    font-size: 30pt;
+    font-size: 9pt;
     text-align: center;
     color: white;  
 }
 
+p{
+  font-family: 'NexaLight';
+  font-size: 10pt;
+  color: white;
+}
+
+#main {  /* select element with id="main" */ 
+   min-height: 70%;
+   max-height: 70%;
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row;
+
+   }
+
+#main > #svgcanvasDiv {
+   margin: 4px;
+   padding: 1px;
+   border: none;
+   border-radius: 7pt;
+   background: none;
+   flex: 3 1 50%;
+   order: 2;
+   overflow: none;
+   text-align: center;
+   opacity: 0.8;
+
+
+   }
+
+#svgcanvas {
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;  
+    border-color: white;
+    height: 600px;
+    width: 800px;
+    background: white;
+    opacity: 30%;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#capricornImage {
+    visibility: hidden;
+}
+
+#main > aside {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #2c3947;
+           flex: 1 6 10%;
+           order: 3;
+          opacity: 0.8;
+
+   }
+
+#Aries, #Taurus, #Gemini, #Cancer, #Leo, #Virgo, #Libra, #Scorpio, #Sagittarius, #Capricorn, #Aquarius, #Pieces {
+  background-color: white;
+  border-radius: 8px;
+  border-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50%;
+  width: 50%;
+  font-family: NexaLight;
+}
+
+#Aries:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Taurus:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Gemini:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Cancer:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Leo:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Virgo:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Libra:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Scorpio:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Sagittarius:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Capricorn:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Aquarius:hover{
+  background-color: #ff646e;
+  color: white;
+}
+#Pieces:hover{
+  background-color: #ff646e;
+  color: white;
+}
