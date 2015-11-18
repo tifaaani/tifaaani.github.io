@@ -130,7 +130,7 @@ require(
 
 
         //Create vars to hold the different images so they will be displayed when called 
-        var ariesImage = "url('../tifaaani.github.io/resources/aries.jpg')";
+        var ariesImage = "url('resources/aries.jpg')";
         var taurusImage = "url('../tifaaani.github.io/resources/taurus.jpg')";
         var geminiImage = "url('../tifaaani.github.io/resources/gemini.jpg')";
         var cancerImage = "url('../tifaaani.github.io/resources/cancer.jpg')";
